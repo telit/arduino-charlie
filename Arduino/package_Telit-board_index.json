@@ -1,0 +1,27 @@
+{
+  "packages": [
+    {
+      "name": "Telit-Board",
+      "maintainer": "Telit",
+      "websiteURL": "https://www.telit.com",
+      "email": "info@telit.com",
+      "help": {},
+      "platforms": [
+        {
+          "name": "Telit-Board",
+          "architecture": "samd",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {},
+          "url": "https://github.com/telit/Charlie-board_ArduinoLib/blob/main/Arduino/Telit-Board-1.0.0.zip",
+          "archiveFileName": "Telit-Board-1.0.0.zip",
+          "checksum": "SHA-256:ea63ee1344c978f1754483a7c0fcd74b47ceb9d11f6aa277ac899529223e25ff",
+          "size": "1137070",
+          "boards": [{ "name": "Charlie" }],
+          "toolsDependencies": []
+        }
+      ],
+      "tools": []
+    }
+  ]
+}
