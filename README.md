@@ -8,6 +8,6 @@ Starting with 1.6.4, Arduino allows installation of third-party platform package
 - Install the current upstream Arduino IDE at the 1.8 level or later. The current version is at the [Arduino website](http://www.arduino.cc/en/main/software).
 - Start Arduino and open Preferences window.
 - Enter the release link above into *Additional Board Manager URLs* field. 
-- Open Boards Manager from Tools > Board menu and install *charlie* platform
-- From Boards Manager, install also *Arduino SAMD Boards (32-bits ARM Cortex-M0+)* platform, as it is a requirement for the Cortex-M0 running on Charlie Board
+- Open Boards Manager from Tools > Board menu and install *Arduino SAMD Boards (32-bits ARM Cortex-M0+)* platform, as it is a requirement for the Cortex-M0 running on Charlie Board.
+- From Boards Manager, install *charlie* platform
 - Select your Charlie board from Tools > Board menu after installation and start development.
