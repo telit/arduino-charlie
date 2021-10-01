@@ -16,7 +16,7 @@
           "version": "1.0.1",
           "category": "Contributed",
           "help": {"online": "https://contact.telit.com/charlie-evaluation-kit"},
-          "url": "https://github.com/telit/arduino-charlie/raw/main/Arduino/Telit-Board-1.0.1.zip",
+          "url": "https://github.com/telit/arduino-charlie/releases/download/v1.0.1/Telit-Board-1.0.1.zip",
           "archiveFileName": "Telit-Board-1.0.1.zip",
           "checksum": "SHA-256:8c215d2bb9e404661146f7a184f0df626d965bf575982484982f7b90a13632d8",
           "size": "1934287",
