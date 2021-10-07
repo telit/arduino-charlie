@@ -33,7 +33,7 @@
 #include <SFU.h>
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   while(!Serial) { }
 
   // wait a bit

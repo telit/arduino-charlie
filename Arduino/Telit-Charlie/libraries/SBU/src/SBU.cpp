@@ -24,6 +24,8 @@ __attribute__ ((section(".sketch_boot")))
 unsigned char SBU_BOOT[0x8000] = {
 #if defined(ARDUINO_SAMD_MKRNB1500)
    #include "boot/mkrnb1500.h"
+#elif defined(ARDUINO_TELIT_SAMD_CHARLIE)
+  #include "boot/tltcharlie.h"
 #else
   #error "Unsupported board!"
 #endif
