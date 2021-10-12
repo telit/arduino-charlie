@@ -25,6 +25,7 @@
   #define SDU_START    0x2000
 #endif
 
+/*FabioPi*/
 #if defined(ARDUINO_TELIT_SAMD_CHARLIE)
 #define SDU_SIZE     0x6000
 #else

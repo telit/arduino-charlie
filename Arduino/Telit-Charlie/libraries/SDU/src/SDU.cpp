@@ -19,7 +19,7 @@
 #include <Arduino.h>
 
 #include "SDU.h"
-
+/*FabioPi increased sduBoot to 24kB to hold Charlie SDU bootcode*/
 __attribute__ ((section(".sketch_boot")))
 unsigned char sduBoot[0x6000] = {
 #if defined(ARDUINO_SAMD_ZERO)
