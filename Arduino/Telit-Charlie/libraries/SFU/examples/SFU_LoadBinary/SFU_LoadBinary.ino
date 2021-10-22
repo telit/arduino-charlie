@@ -18,7 +18,7 @@ static uint8_t const BINARY[] =
  **************************************************************************************/
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   unsigned long const start = millis();
   for(unsigned long now = millis(); !Serial && ((now - start) < 5000); now = millis()) { };

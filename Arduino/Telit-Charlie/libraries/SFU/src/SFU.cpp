@@ -38,6 +38,8 @@ unsigned char SFU_BOOT[0x8000] = {
   #include "boot/mkrwan1310.h"
 #elif defined(ARDUINO_SAMD_MKRFOX1200)
   #include "boot/mkrfox1200.h"
+#elif defined(ARDUINO_TELIT_SAMD_CHARLIE)
+  #include "boot/tltcharlie.h"
 #else
   #error "Unsupported board!"
 #endif
